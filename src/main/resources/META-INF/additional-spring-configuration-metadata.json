@@ -1,0 +1,42 @@
+{"properties": [
+  {
+    "name": "db.driver",
+    "type": "java.lang.String",
+    "description": "A description for 'db.driver'"
+  },
+  {
+    "name": "db.url",
+    "type": "java.lang.String",
+    "description": "A description for 'db.url'"
+  },
+  {
+    "name": "db.username",
+    "type": "java.lang.String",
+    "description": "A description for 'db.username'"
+  },
+  {
+    "name": "db.password",
+    "type": "java.lang.String",
+    "description": "A description for 'db.password'"
+  },
+  {
+    "name": "hp.dialect",
+    "type": "java.lang.String",
+    "description": "A description for 'hp.dialect'"
+  },
+  {
+    "name": "hp.hbm2ddl",
+    "type": "java.lang.String",
+    "description": "A description for 'hp.hbm2ddl'"
+  },
+  {
+    "name": "hp.packagetoscan",
+    "type": "java.lang.String",
+    "description": "A description for 'hp.packagetoscan'"
+  },
+  {
+    "name": "hp.show_sql",
+    "type": "java.lang.String",
+    "description": "A description for 'hp.show_sql'"
+  }
+]}
