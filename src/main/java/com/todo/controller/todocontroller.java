@@ -19,7 +19,7 @@ public class todocontroller {
 	@Autowired
 	todoservice todoservice;
 
-	@GetMapping("/home")
+	@GetMapping("/")
 	public String index(Model m) {
 
 		List<Todo> list = todoservice.getalldata();
@@ -34,7 +34,7 @@ public class todocontroller {
 
 		todoservice.addtodoservice(todo);
 
-		return "redirect:/home";
+		return "redirect:/";
 	}
 
 	@GetMapping("/update/{id}")
@@ -52,7 +52,7 @@ public class todocontroller {
 
 		todoservice.deleteservice(id);
 
-		return "redirect:/home";
+		return "redirect:/";
 
 	}
 
