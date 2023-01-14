@@ -2,7 +2,6 @@ package com.todo.configuration;
 
 import java.util.Properties;
 
-import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Environment;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
